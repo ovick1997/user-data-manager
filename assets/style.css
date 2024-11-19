@@ -1,0 +1,137 @@
+/* Basic layout and spacing */
+.wrap {
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.udm-tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.udm-tab-link {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.udm-tab-link:hover {
+    background-color: #e0e0e0;
+}
+
+.udm-tab-link.active {
+    background-color: #0073aa;
+    color: white;
+}
+
+.udm-tab-content {
+    display: block;
+}
+
+.udm-tab-pane {
+    display: none;
+}
+
+.udm-tab-pane.active {
+    display: block;
+}
+
+/* Table Styling */
+.udm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.udm-table th,
+.udm-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.udm-table th {
+    background-color: #f4f4f4;
+}
+
+.udm-table td input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+/* Button Styling */
+button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.udm-edit-user-button,
+button.udm-edit-option-button {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+button.udm-save-user-button,
+button.udm-save-option-button {
+    background-color: #5bc0de;
+    color: white;
+}
+
+button.udm-save-user-button,
+button.udm-save-option-button {
+    display: none;
+}
+
+button.udm-edit-user-button:hover,
+button.udm-edit-option-button:hover {
+    background-color: #e69434;
+}
+
+button.udm-save-user-button:hover,
+button.udm-save-option-button:hover {
+    background-color: #4ca3d9;
+}
+
+/* Active state for editing cells */
+.udm-display-name input,
+.udm-display-email input,
+.udm-display-option-value input {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+
+/* Hover effect for table rows */
+.udm-table tbody tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Responsive Table Styling */
+@media screen and (max-width: 600px) {
+    .udm-table th, .udm-table td {
+        padding: 8px;
+    }
+
+    button {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    .udm-tab-link {
+        font-size: 14px;
+    }
+}
