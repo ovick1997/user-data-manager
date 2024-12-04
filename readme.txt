@@ -1,10 +1,10 @@
-=== User and WP Options Manager ===
+=== User and Options Manager ===
 Contributors: iamovk
-Tags: user management, wp options, admin, database management, user data, options manager
+Tags: user management, wp options, database management, user data, options manager
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Short Description: A simple plugin to manage WordPress user data and options wit
 
 == Description ==
 
-The **User and WP Options Manager** plugin allows you to manage WordPress user data and options directly from the admin panel with an intuitive interface. This plugin enables administrators to easily update user information and WordPress options like site settings and email addresses.
+The **User and Options Manager** plugin allows you to manage WordPress user data and options directly from the admin panel with an intuitive interface. This plugin enables administrators to easily update user information and WordPress options like site settings and email addresses.
 
 With this plugin, you can:
 - View and manage user data (name, email, etc.).
@@ -23,7 +23,7 @@ With this plugin, you can:
 
 == Installation ==
 
-1. Upload the `user-wp-options-manager` folder to the `/wp-content/plugins/` directory.
+1. Upload the `user-options-manager` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Navigate to the plugin's menu page under **Manage Database** in the WordPress dashboard.
 4. Use the interface to manage user data and WP options.
@@ -50,7 +50,7 @@ Currently, the plugin allows one option update at a time. Simply select an optio
 == Changelog ==
 
 = 1.0 =
-* Initial release of User and WP Options Manager plugin.
+* Initial release of User and Options Manager plugin.
 * Allows managing user data (name, email, etc.).
 * Provides an interface to manage key WP options such as site URL and admin email.
 * User-friendly, tabbed layout for easy management.

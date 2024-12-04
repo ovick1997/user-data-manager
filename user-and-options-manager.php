@@ -1,11 +1,12 @@
 <?php
 /* 
-Plugin Name: User and WP Options Manager
+Plugin Name: User and Options Manager
+Plugin URI: https://github.com/ovick1997/bangla-calendar-display
 Description: Manage WordPress user data and options with an easy-to-use interface.
-Version: 1.0
+Version: 1.0.0
 Author: Md Shorov Abedin
 Author URI: https://shorovabedin.com
-Text Domain: user-wp-options-manager
+Text Domain: user-and-options-manager
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -13,10 +14,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 // Add the menu page
 function udm_add_menu_page() {
     add_menu_page(
-        'User & WP Options Manager',
+        'User & Options Manager',
         'Manage Database',
         'manage_options',
-        'user-wp-options-manager',
+        'user-and-options-manager',
         'udm_manage_page_content',
         'dashicons-database',
         30
