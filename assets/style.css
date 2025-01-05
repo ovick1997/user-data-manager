@@ -1,5 +1,5 @@
 /* Basic layout and spacing */
-.wrap {
+.msa-udm-wrap {
     margin: 20px;
     background: #fff;
     padding: 20px;
@@ -7,14 +7,14 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.udm-tabs {
+.msa-udm-wrap .udm-tabs {
     display: flex;
     list-style: none;
     padding: 0;
     margin-bottom: 20px;
 }
 
-.udm-tab-link {
+.msa-udm-wrap .udm-tab-link {
     padding: 10px 20px;
     background-color: #f1f1f1;
     border: 1px solid #ddd;
@@ -24,46 +24,46 @@
     transition: background-color 0.3s ease;
 }
 
-.udm-tab-link:hover {
+.msa-udm-wrap .udm-tab-link:hover {
     background-color: #e0e0e0;
 }
 
-.udm-tab-link.active {
+.msa-udm-wrap .udm-tab-link.active {
     background-color: #0073aa;
     color: white;
 }
 
-.udm-tab-content {
+.msa-udm-wrap .udm-tab-content {
     display: block;
 }
 
-.udm-tab-pane {
+.msa-udm-wrap .udm-tab-pane {
     display: none;
 }
 
-.udm-tab-pane.active {
+.msa-udm-wrap .udm-tab-pane.active {
     display: block;
 }
 
 /* Table Styling */
-.udm-table {
+.msa-udm-wrap .udm-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-.udm-table th,
-.udm-table td {
+.msa-udm-wrap .udm-table th,
+.msa-udm-wrap .udm-table td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
 }
 
-.udm-table th {
+.msa-udm-wrap .udm-table th {
     background-color: #f4f4f4;
 }
 
-.udm-table td input {
+.msa-udm-wrap .udm-table td input {
     width: 100%;
     padding: 5px;
     border-radius: 3px;
@@ -71,7 +71,7 @@
 }
 
 /* Button Styling */
-button {
+.msa-udm-wrap button {
     padding: 5px 15px;
     border: none;
     border-radius: 3px;
@@ -79,59 +79,59 @@ button {
     font-size: 14px;
 }
 
-button.udm-edit-user-button,
-button.udm-edit-option-button {
+.msa-udm-wrap button.udm-edit-user-button,
+.msa-udm-wrap button.udm-edit-option-button {
     background-color: #f0ad4e;
     color: white;
 }
 
-button.udm-save-user-button,
-button.udm-save-option-button {
+.msa-udm-wrap button.udm-save-user-button,
+.msa-udm-wrap button.udm-save-option-button {
     background-color: #5bc0de;
     color: white;
 }
 
-button.udm-save-user-button,
-button.udm-save-option-button {
+.msa-udm-wrap button.udm-save-user-button,
+.msa-udm-wrap button.udm-save-option-button {
     display: none;
 }
 
-button.udm-edit-user-button:hover,
-button.udm-edit-option-button:hover {
+.msa-udm-wrap button.udm-edit-user-button:hover,
+.msa-udm-wrap button.udm-edit-option-button:hover {
     background-color: #e69434;
 }
 
-button.udm-save-user-button:hover,
-button.udm-save-option-button:hover {
+.msa-udm-wrap button.udm-save-user-button:hover,
+.msa-udm-wrap button.udm-save-option-button:hover {
     background-color: #4ca3d9;
 }
 
 /* Active state for editing cells */
-.udm-display-name input,
-.udm-display-email input,
-.udm-display-option-value input {
+.msa-udm-wrap .udm-display-name input,
+.msa-udm-wrap .udm-display-email input,
+.msa-udm-wrap .udm-display-option-value input {
     background-color: #fafafa;
     border: 1px solid #ddd;
 }
 
 /* Hover effect for table rows */
-.udm-table tbody tr:hover {
+.msa-udm-wrap .udm-table tbody tr:hover {
     background-color: #f9f9f9;
     cursor: pointer;
 }
 
 /* Responsive Table Styling */
 @media screen and (max-width: 600px) {
-    .udm-table th, .udm-table td {
+    .msa-udm-wrap .udm-table th, .msa-udm-wrap .udm-table td {
         padding: 8px;
     }
 
-    button {
+    .msa-udm-wrap button {
         padding: 3px 8px;
         font-size: 12px;
     }
 
-    .udm-tab-link {
+    .msa-udm-wrap .udm-tab-link {
         font-size: 14px;
     }
 }

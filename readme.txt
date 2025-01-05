@@ -4,7 +4,7 @@ Tags: user management, wp options, database management, user data, options manag
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ The **User and Options Manager** plugin allows you to manage WordPress user data
 With this plugin, you can:
 - View and manage user data (name, email, etc.).
 - Edit user details directly from the admin panel.
-- View and manage key WordPress options like site URL, blog name, and admin email.
+- View and manage key WordPress options like blog name, and admin email.
 - Update WP options with just a few clicks.
 - Easy interface with a tabbed layout for both user data and WP options.
 
@@ -37,7 +37,7 @@ After activating the plugin, go to the **Manage Database** section in the admin 
 
 = How do I update WP options? =
 
-In the **WP Options** tab, you can view and edit various WordPress options such as the site URL, blog name, and admin email.
+In the **WP Options** tab, you can view and edit various WordPress options such as the blog name, and admin email.
 
 = Will this plugin allow me to manage all user data? =
 
@@ -52,13 +52,22 @@ Currently, the plugin allows one option update at a time. Simply select an optio
 = 1.0 =
 * Initial release of User and Options Manager plugin.
 * Allows managing user data (name, email, etc.).
-* Provides an interface to manage key WP options such as site URL and admin email.
+* Provides an interface to manage key WP options such as admin email.
 * User-friendly, tabbed layout for easy management.
 
 == Upgrade Notice ==
 
 = 1.0 =
 Initial release. Please update if you encounter any bugs or issues with managing user data or WP options.
+
+= 1.0.1 =
+Fix Prefix with unique and check declared function already exists or not. 
+
+= 1.0.2 =
+Fix Security Issue
+
+= 1.0.3 =
+Fix Security Issue and set css style only for this plugins.
 
 == License ==
 
